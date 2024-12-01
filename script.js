@@ -16,7 +16,7 @@ function getHumanChoice() {
         return choice;
     } else {
         alert("Invalid Choice. Enter a valid option.");
-        getHumanChoice();
+        return getHumanChoice();
     }
 }
 
